@@ -28,15 +28,17 @@ header {
     position: relative;
 }
 .header-top i {
-    position: fixed;
+    position: absolute;
     margin: 12px;
+    margin-left: 12px;
     font-size:  36px;
     color: snow;
     cursor: pointer;
     z-index: 1;
+    margin-right: auto;
 }
 .header-top ul {
-    position: fixed;
+    position: absolute;
     right: 0;
     width: 300px;
     height: 100vh;
@@ -72,9 +74,12 @@ header {
     border-bottom-left-radius: 5px;
     border-top-left-radius: 5px;
     color: snow;
+    transition: .3s;
 }
 .header-top ul li a:hover {
-    color: rgb(89, 54, 76);
+    color: rgb(215, 129, 48);
+    background-color: #f8f8f8;
+  box-shadow: 0 0 0 5px #ced1d55f;
 }
 .header-content {
     position: absolute;
