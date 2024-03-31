@@ -141,12 +141,15 @@ form button::before {
    form button:hover::before {
     width: 100%;
    }
-   .header-about {
-    color:rgba(0, 0, 0, 1);
-	width:511px;
-	height:57px;
-	font-family:Quando;
-	text-align:left;
-	font-size:50px;
-	letter-spacing:0;
+   .header-about { 
+        color:rgba(0, 0, 0, 1);
+        width:511px;
+        height:57px;
+        position:absolute;
+        left:211px;
+        top:187px;
+        font-family:Quando;
+        text-align:left;
+        font-size:50px;
+        letter-spacing:0;
    }
