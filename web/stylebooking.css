@@ -230,3 +230,30 @@ form button::before {
     height:70px ;
 
 }
+.service {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.service-icon {
+    flex: 0 0 auto;
+    margin-right: 20px;
+}
+
+.service-icon img {
+    width: 100px; /* Adjust as needed */
+    height: 100px; /* Adjust as needed */
+}
+
+.service-details {
+    flex: 1 1 auto;
+}
+
+.service-details h2 {
+    margin-top: 0;
+}
+
+.service-details p {
+    margin-bottom: 0;
+}
+
