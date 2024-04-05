@@ -376,3 +376,28 @@ form button::before {
     width: 400px;
 }
 
+.MS {
+    background-color: #E99331;
+    color: aliceblue;
+	width: 200px;
+	height:61px;
+	position:absolute;
+	left:202px;
+	top:1079px;
+	font-family:Quantico;
+	text-align:center;
+	font-size:12px;
+	letter-spacing:0;
+    border: none;
+    border-radius: 5%;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all .5s ease;
+}
+.MS:hover {
+    background-color: #A0736E;
+    opacity:0.8;
+    width:220px ;
+    height:70px ;
+
+}
