@@ -234,7 +234,7 @@ form button::before {
     margin-bottom: 20px;
 }
 
-.service-icon {
+.service-icon1 {
     flex: 0 0 auto;
     margin-right: 20px;
     background-color: #E99331;
@@ -242,8 +242,6 @@ form button::before {
 	width: 200px;
 	height:61px;
 	position:absolute;
-	left:202px;
-	top:1079px;
 	font-family:Quantico;
 	text-align:center;
 	font-size:36px;
@@ -255,11 +253,98 @@ form button::before {
     transition: all .5s ease;
 }
 
-.service-icon img {
+.service-icon1 img {
     width: 100px; /* Adjust as needed */
     height: 100px; /* Adjust as needed */
 }
-.service-icon:hover {
+.service-icon1:hover {
+    opacity: 0.8;
+    width: 80px;
+    height: 80px;
+}
+
+.service-icon2 {
+    flex: 0 0 auto;
+    margin-right: 20px;
+    background-color: #E99331;
+    color: aliceblue;
+	width: 200px;
+	height:61px;
+	position:absolute;
+	font-family:Quantico;
+	text-align:center;
+	font-size:36px;
+	letter-spacing:0;
+    border: none;
+    border-radius: 5%;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all .5s ease;
+}
+
+.service-icon2 img {
+    width: 100px; /* Adjust as needed */
+    height: 100px; /* Adjust as needed */
+}
+.service-icon2:hover {
+    opacity: 0.8;
+    width: 80px;
+    height: 80px;
+}
+
+.service-icon3 {
+    flex: 0 0 auto;
+    margin-right: 20px;
+    background-color: #E99331;
+    color: aliceblue;
+	width: 200px;
+	height:61px;
+	position:absolute;
+	font-family:Quantico;
+	text-align:center;
+	font-size:36px;
+	letter-spacing:0;
+    border: none;
+    border-radius: 5%;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all .5s ease;
+}
+
+.service-icon3 img {
+    width: 100px; /* Adjust as needed */
+    height: 100px; /* Adjust as needed */
+}
+.service-icon3:hover {
+    opacity: 0.8;
+    width: 80px;
+    height: 80px;
+}
+
+.service-icon4 {
+    flex: 0 0 auto;
+    margin-right: 20px;
+    background-color: #E99331;
+    color: aliceblue;
+	width: 200px;
+	height:61px;
+	position:absolute;
+	font-family:Quantico;
+	text-align:center;
+	font-size:36px;
+	letter-spacing:0;
+    border: none;
+    border-radius: 5%;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all .5s ease;
+}
+
+.service-icon4 img {
+    width: 100px; /* Adjust as needed */
+    height: 100px; /* Adjust as needed */
+}
+.service-icon4:hover {
     opacity: 0.8;
     width: 80px;
     height: 80px;
