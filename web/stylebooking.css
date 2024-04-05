@@ -237,7 +237,7 @@ form button::before {
 .service-icon1 {
     flex: 0 0 auto;
     margin-right: 20px;
-    background-color: #E99331;
+    background-color: #c9bdb0;
     color: aliceblue;
 	width: 200px;
 	height:61px;
@@ -266,7 +266,7 @@ form button::before {
 .service-icon2 {
     flex: 0 0 auto;
     margin-right: 20px;
-    background-color: #E99331;
+    background-color: #c9bdb0;
     color: aliceblue;
 	width: 200px;
 	height:61px;
@@ -295,7 +295,7 @@ form button::before {
 .service-icon3 {
     flex: 0 0 auto;
     margin-right: 20px;
-    background-color: #E99331;
+    background-color: #c9bdb0;
     color: aliceblue;
 	width: 200px;
 	height:61px;
@@ -324,7 +324,7 @@ form button::before {
 .service-icon4 {
     flex: 0 0 auto;
     margin-right: 20px;
-    background-color: #E99331;
+    background-color: #c9bdb0;
     color: aliceblue;
 	width: 200px;
 	height:61px;
@@ -400,4 +400,13 @@ form button::before {
     width:220px ;
     height:70px ;
 
+}
+.FS {
+    background: #ffffff;
+    margin-top:20% ;
+    margin-left: 10%;
+    margin-bottom: 20%;
+    margin-right: 10%;
+    width:80%;
+    height: 50%;
 }
