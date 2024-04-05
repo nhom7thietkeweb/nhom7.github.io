@@ -29,7 +29,6 @@ header {
 }
 .header-top {
     background-color: #d08b2b;
-    box-shadow: 3px 3px 5px  rgba(0,0,0,.2);
 }
 .header-top ul {
    width: 100% ;
@@ -37,10 +36,6 @@ header {
  display: flex;
  justify-content: flex-end;
  align-items: center;
-}
-.header-top ul.active {
-    display: block;
-    opacity: 1;
 }
 
 .header-top ul li {
@@ -261,3 +256,5 @@ form button::before {
 .service-details p {
     margin-bottom: 0;
 }
+
+
