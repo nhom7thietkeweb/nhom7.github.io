@@ -29,6 +29,7 @@ header {
 }
 .header-top {
     background-color: #d08b2b;
+    position: fixed;
 }
 .header-top ul {
    width: 100% ;
