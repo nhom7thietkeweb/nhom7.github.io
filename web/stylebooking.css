@@ -1,9 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-/* 
-Booking Code
-*/
-
 :root {
     --main-color:#f7a93d;
 }
@@ -17,7 +12,8 @@ ul {
     list-style:  none;
 }
 a {
-text-decoration: none;
+    text-decoration: none;
+    color: #ffffff;
 }
 .video-container {
   height: 100vh;
@@ -34,10 +30,10 @@ header {
 }
 .header-top {
     background-color: #d08b2b;
-    position: fixed;
 }
 .header-top ul {
    width: 100% ;
+ list-style: none;
  display: flex;
  justify-content: flex-end;
  align-items: center;
@@ -56,6 +52,7 @@ header {
    height: 100%;
     color: rgb(255, 255, 255);
     padding: 0 30px;
+    text-decoration: none;
     display: flex;
     align-items: center;
 }
@@ -143,11 +140,6 @@ form button::before {
     .header-content {
         width: 100%;
     }
-
-    /* 
-    Home Code
-    */
-
    }
    .header-about { 
         color:rgba(0, 0, 0, 1);
@@ -215,9 +207,9 @@ form button::before {
 }
 .buton {
     background-color: #E99331;
-    color: aliceblue;
-	width: 200px;
-	height:61px;
+    color: #ffffff;
+	width: 300px;
+	height:82px;
 	position:absolute;
 	left:202px;
 	top:1079px;
@@ -234,7 +226,7 @@ form button::before {
 .buton:hover {
     background-color: #A0736E;
     opacity:0.8;
-    width:220px ;
+    width:350px ;
     height:70px ;
 
 }
@@ -418,4 +410,118 @@ form button::before {
     margin-right: 10%;
     width:80%;
     height: 50%;
+}
+
+.home{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(images/bghome.jpg);   
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+}
+
+.home-infor{
+    background-color: #f2f4fb;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1200px;
+
+}
+
+.home-table{
+    display: block;
+    border: solid;
+    border-radius: 16px;
+    border-style: hidden;
+    background-color: #ffffff;
+    height: 1100px;
+    width: 1500px;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.center{
+    margin: auto;
+    width: 50%;
+    border: solid;
+    border-style: hidden;
+    padding: 10px;
+    text-align: center;
+    padding-top: 250px;
+}
+
+.head1{
+    font-family: "Playfair Display", times, serif;
+    font-size: 80px;
+    color:floralwhite;
+}
+
+.head2{
+    font-family: "Roboto", arial, sans-serif;
+    font-size: 16px;
+    line-height: 5;
+    color:floralwhite;
+}
+
+.Headtext{
+    float: left;
+}
+
+.About{ 
+    color:rgba(78.61170932650566, 70.42298913002014, 70.42298913002014, 1);
+	text-align:left;
+    font-family:Quantico;
+	font-size:32px;    
+}
+
+.US{
+    font-family:Quantico;
+	font-size:60px; 
+    padding-left: 200px;
+}
+.column{
+    float: left;
+    padding-top: 100px;
+}
+
+.left{
+    width: 50%;
+    padding-left: 100px;
+}
+
+.right{
+    width: 50%;
+    padding-left: 100px;
+    padding-top: 220px;
+}
+
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.Homebutton{
+    background-color: #E99331;
+    color: #ffffff;
+	width: 300px;
+	height:82px;
+	font-family:Quantico;
+	text-align:center;
+	font-size:36px;
+	letter-spacing:0;
+    border: none;
+    border-radius: 11px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all .5s ease;
+}
+.Homebutton:hover{
+    background-color: #A0736E;
+    opacity:0.8;
+    transform: scale(1.1)
+}
+
+.Buttoncenter{
+    padding-left: 170px;
+    padding-top: 50px;
 }
