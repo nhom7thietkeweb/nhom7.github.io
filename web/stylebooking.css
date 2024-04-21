@@ -534,5 +534,7 @@ form button::before {
     margin-top: 470px;
    color: white;
    background-color: #797572;
+	cursor: pointer;
 }
+.send:hover {background-color: black;}
 
