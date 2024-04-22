@@ -66,11 +66,12 @@ header {
 .header-content-left {
     position: absolute;
     top: 50px;
-    left: 0;
+    left: 188px;
     background-color: rgba(255, 255, 255, 0.1) ;
     padding: 30px 50px 0px 50px;
     text-align: center;
-    width: 400px;
+    width: 564px;
+    height: 410px;
 }
 .header-content-left> h1 {
     color: snow;
@@ -79,6 +80,10 @@ form {
     background-color: rgb(255, 255, 255);
     padding: 20px 15px;
     margin-top: 20px;
+    height: 600px;
+    width: 500px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    
 }
 form h1 {
     color: darkslategrey;
@@ -86,11 +91,13 @@ form h1 {
 }
 form select,input {
     width: 100%;
-    height: 38px;
+    height: 51px;
     padding-left: 12px;
     outline: none;
     background-color: rgb(255, 255, 255);
     border: 1px solid #e0e0e0;
+    font-size: 16px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 form p {
     text-align: left;
@@ -99,7 +106,7 @@ form p {
 }
 form button {
     height: 35px;
-    margin-top: 15px;
+    margin-top: 17px;
     width: 250px;
     border: unset;
  border-radius: 5px;
@@ -137,42 +144,40 @@ form button::before {
    form button:hover::before {
     width: 100%;
    }
-   .header-content-right {
+  .right {
     position: absolute;
-    top: 250px;
-    right: 20px;
-    width: 60%;
-    height: 40%;
-    color: #e5ecf2;
-
-   }
-   .header-content-right h1 {
-    font-size: 45px;
-    font-family: "Nanum Myeongjo", serif;
-    font-weight: 600;
-    font-style: normal;
-   
-   }
-
-    .header-content-right p {
-    margin-top: 10px;
-    font-weight: 300;
-   
-    }
-
-
-   .header-content-right  button >a {
-    margin-top: 10px;
-    position: absolute;
-    background: none;
-    height: 40px;
-    font-size: 16px;
-    cursor: pointer;
-    border: none;
-    text-decoration: underline;
-    color: #ffffff;
-    fill: #e0e0e0;
-   }
+    width: 559px;
+    height: 600px;
+    top: 137px;
+    left: 769px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  table {
+    padding: 20px;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    line-height: 1.5em;
+    font-size: 18px;
+  }
+  table th {
+    opacity: 0.7;
+  }
+  table td {
+    opacity: 0.6;
+  }
+  .trip-detail-container h3 {
+    padding: 30px;
+    padding-top: 0;
+    color: #d08b2b;
+    font-size: 25px;
+  }
+  .right tr {
+    display: flex;
+    justify-content: space-between;
+  }
 
    @media  (max-width: 575px) {
     .header-content-left {

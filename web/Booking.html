@@ -16,9 +16,9 @@
             <li><a href="Booking.html">Booking</a>
             <li><a href="contact.html">Contact</a>
       </ul>
+      </div>
       <div class="video-container">
         <video src="videobg.mp4" autoplay muted loop alt="">
-      </div>
     </div>
     <div class="content-container">
           <div class="header-content-left">
@@ -26,10 +26,18 @@
           
       <form action="">
         <h1>Book a room online</h1>
-      <p>First name:</p>
-      <input type="text" name="Firstname" id="" placeholder="Your First name">
-      <p>Last name:</p>
-      <input type="text" name="Lastname" id="" placeholder="Your Last name">
+      <p>From:</p>
+      <select name="Position1" id="">
+        <option value="#">Ha Noi</option>
+        <option value="#">Destination 2</option>
+        <option value="#">Destination 3</option>
+      </select>
+      <p>Hotel-Arrival</p>
+      <select name="Hotel-Arrival" id="">
+        <option value="#">Eternal Sunshine-Da Nang</option>
+        <option value="#">Destination 2</option>
+        <option value="#">Destination 3</option>
+      </select>
       <p>Check in</p>
       <input type="date" name="In" id="">
       <p>Check out</p>
@@ -38,17 +46,49 @@
       <select name="room" id="">
         <option value="#">--Number of rooms--</option>
       </select>
+      <p>Promo code</p>
+      <input type="text" name="code" placeholder="Type your code">
       <button>Book</button>
       </form>
     </div> 
-    <div class="header-content-right">
-      <div class="content-container-right">
-      <h1>Eternal Sunshine hotel</h1>
-      <p>Welcome to Eternal Sunshine Hotel, where luxury meets tranquility, and every moment feels timeless. Nestled in the heart of HA NOi, our hotel promises an unforgettable experience designed to rejuvenate your mind, body, and soul.</p>
-        <button><a href="services.html">More about our hotel <img src="images/arrow-forward.png" style="width:20px;height:10px;" alt=""></a></button>
-    </div>
-    </div>
-    </div>
+    <div class="right">
+			<div class="trip-detail-container">
+				<div class="one-way-container">
+					<h3 class="trip-detail-title">Your trip</h3>
+					<table>
+						<table>
+							<tr><td>From</td><td>Ha Noi</td></tr>
+							<tr><td>To</td><td>Eternal Sunshine-Da Nang</td></tr>
+							<tr><td>Check-in</td><td>22/4/2024 18:00:00</td></tr>
+							<tr><td>Check-out</td><td>26/4/2024 17:00:00</td></tr>
+						</table>
+					</table>
+				</div>
+				<hr>
+				<div class="two-way-container">
+					<h3 class="trip-detail-title">Room info</h3>
+					<table>
+						<tr><td>Room number(s)</td><td>1</td></tr>
+						<tr><td>Room type</td><td>Twin room</td></tr>
+						<tr><td>Room's area</td><td>77 m²</td></tr>
+						<tr><td>Service bonus</td><td>VIP's ticket for Amusement park</td></tr>
+						<tr><td>Promo code</td><td>None</td></tr>
+					</table>
+				</div>
+				<hr>
+				<div class="price-container">
+					<h3 class="trip-detail-title">Price</h3>
+					<table>
+						<tr><td>Base Price</td><td>CA $300</td></tr>
+						<tr><td>Tax</td><td>CA $30</td></tr>
+						<tr><td>Total Price</td><td>CA $330</td></tr>
+					</table>
+				</div>
+			
+			</div>
+		</div>
+	</div>
+</div>
   </header>
 </body>
 <script src="script.js" ></script>
