@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
 :root {
     --main-color:#f7a93d;
 }
@@ -16,8 +17,8 @@ a {
     color: #ffffff;
 }
 .video-container {
-  height: 100vh;
-  width: 100vw;
+  height: 100vh ;
+  width: 100vw ;
 
 }
 .video-container video {
@@ -30,6 +31,7 @@ header {
 }
 .header-top {
     background-color: #d08b2b;
+    position: fixed;
 }
 .header-top ul {
    width: 100% ;
@@ -62,7 +64,7 @@ header {
   box-shadow: 0 0 0 5px #ced1d55f;
   transition: 0.3s;
 }
-.header-content {
+.header-content-left {
     position: absolute;
     top: 50px;
     left: 0;
@@ -71,7 +73,7 @@ header {
     text-align: center;
     width: 400px;
 }
-.header-content> h1 {
+.header-content-left> h1 {
     color: snow;
 }
 form {
@@ -136,9 +138,49 @@ form button::before {
    form button:hover::before {
     width: 100%;
    }
-   @media  (max-width: 572px) {
-    .header-content {
+   .header-content-right {
+    position: absolute;
+    top: 250px;
+    right: 20px;
+    width: 60%;
+    height: 40%;
+    color: #e5ecf2;
+
+   }
+   .header-content-right h1 {
+    font-size: 45px;
+    font-family: "Nanum Myeongjo", serif;
+    font-weight: 600;
+    font-style: normal;
+   
+   }
+
+    .header-content-right p {
+    margin-top: 10px;
+    font-weight: 300;
+   
+    }
+
+
+   .header-content-right  button >a {
+    margin-top: 10px;
+    position: absolute;
+    background: none;
+    height: 40px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    text-decoration: underline;
+    color: #ffffff;
+    fill: #e0e0e0;
+   }
+
+   @media  (max-width: 575px) {
+    .header-content-left {
         width: 100%;
+    }
+    .header-content-right {
+        display: none;
     }
    }
    .header-about { 
