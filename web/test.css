@@ -1,22 +1,77 @@
-.tb {
-    width: 100%;
-    height: 500px;
-    filter: drop-shadow(0 0 5px blue);
+.container {
+    position: relative;
 }
-.img1 img {
-    width: 200px;
+
+.container > .background, .container > .list-images {
+    width: 850px;
     height: 200px;
-    
 }
-.img2 img {
-    width: 200px;
-    height: 200px; 
+
+.background {
+    position: absolute;
+    overflow: hidden;
 }
-.img3 img {
-    width: 200px;
-    height: 200px; 
+
+.list-images {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
-.img4 img {
+
+.list-images > img {
     width: 200px;
-    height: 200px; 
+}
+.P1GD {
+    position: absolute;
+    text-align: center;
+    top: 150px;
+    left: 10px;
+    width: 100px;
+    height: 50px;
+    background-color: rgb(200, 200, 200 , 0.8);
+}
+.img1:hover{
+    cursor: pointer;
+    opacity: 0.7;
+    transition: all .3s ease;
+    box-shadow: bisque;
+
+}
+.Eatandrelax {
+    position: absolute;
+    text-align: center;
+    left: 220px;
+    width: 130px;
+    height: 50px;
+    background-color: rgb(200, 200, 200 , 0.8);
+}
+.Eatandrelax:hover {
+    cursor: pointer;
+    opacity: 0.7;
+    transition: all .3s ease;
+    box-shadow: bisque;
+}
+.P2GD {
+    position: absolute;
+    text-align: center;
+    top: 150px;
+    left: 440px;
+    width: 100px;
+    height: 50px;
+    background-color: rgb(200, 200, 200 , 0.8); 
+}
+.P2GD:hover {
+    cursor: pointer;
+    opacity: 0.7;
+    transition: all .3s ease;
+    box-shadow: bisque;
+}
+.P1GC {
+    position: absolute;
+    text-align: center;
+    left: 650px;
+    width: 100px;
+    height: 50px;
+    background-color: rgb(200, 200, 200 , 0.8); 
 }

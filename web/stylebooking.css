@@ -73,7 +73,7 @@ header {
     text-align: center;
     width: 400px;
 }
-.header-content-left> h1 {
+.header-content> h1 {
     color: snow;
 }
 form {
@@ -200,8 +200,9 @@ form button::before {
 .bg { 
 	background-color:#EEECDB;
 	width:100%;
-	height:170%;
+	height:100%;
 	position:absolute;
+    border: none;
 }
 .about { 
 	color:rgba(0, 0, 0, 1);
@@ -272,137 +273,7 @@ form button::before {
     height:70px ;
 
 }
-.service {
-    display: flex;
-    margin-bottom: 20px;
-}
 
-.service-icon1 {
-    flex: 0 0 auto;
-    margin-right: 20px;
-    background-color: #c9bdb0;
-    color: aliceblue;
-	width: 200px;
-	height:61px;
-	position:absolute;
-	font-family:Quantico;
-	text-align:center;
-	font-size:36px;
-	letter-spacing:0;
-    border: none;
-    border-radius: 5%;
-    cursor: pointer;
-    font-weight: bold;
-    transition: all .5s ease;
-}
-
-.service-icon1 img {
-    width: 100px; /* Adjust as needed */
-    height: 100px; /* Adjust as needed */
-}
-.service-icon1:hover {
-    opacity: 0.8;
-    width: 80px;
-    height: 80px;
-}
-
-.service-icon2 {
-    flex: 0 0 auto;
-    margin-right: 20px;
-    background-color: #c9bdb0;
-    color: aliceblue;
-	width: 200px;
-	height:61px;
-	position:absolute;
-	font-family:Quantico;
-	text-align:center;
-	font-size:36px;
-	letter-spacing:0;
-    border: none;
-    border-radius: 5%;
-    cursor: pointer;
-    font-weight: bold;
-    transition: all .5s ease;
-}
-
-.service-icon2 img {
-    width: 100px; /* Adjust as needed */
-    height: 100px; /* Adjust as needed */
-}
-.service-icon2:hover {
-    opacity: 0.8;
-    width: 80px;
-    height: 80px;
-}
-
-.service-icon3 {
-    flex: 0 0 auto;
-    margin-right: 20px;
-    background-color: #c9bdb0;
-    color: aliceblue;
-	width: 200px;
-	height:61px;
-	position:absolute;
-	font-family:Quantico;
-	text-align:center;
-	font-size:36px;
-	letter-spacing:0;
-    border: none;
-    border-radius: 5%;
-    cursor: pointer;
-    font-weight: bold;
-    transition: all .5s ease;
-}
-
-.service-icon3 img {
-    width: 100px; /* Adjust as needed */
-    height: 100px; /* Adjust as needed */
-}
-.service-icon3:hover {
-    opacity: 0.8;
-    width: 80px;
-    height: 80px;
-}
-
-.service-icon4 {
-    flex: 0 0 auto;
-    margin-right: 20px;
-    background-color: #c9bdb0;
-    color: aliceblue;
-	width: 200px;
-	height:61px;
-	position:absolute;
-	font-family:Quantico;
-	text-align:center;
-	font-size:36px;
-	letter-spacing:0;
-    border: none;
-    border-radius: 5%;
-    cursor: pointer;
-    font-weight: bold;
-    transition: all .5s ease;
-}
-
-.service-icon4 img {
-    width: 100px; /* Adjust as needed */
-    height: 100px; /* Adjust as needed */
-}
-.service-icon4:hover {
-    opacity: 0.8;
-    width: 80px;
-    height: 80px;
-}
-.service-details {
-    flex: 1 1 auto;
-}
-
-.service-details h2 {
-    margin-top: 0;
-}
-
-.service-details p {
-    margin-bottom: 0;
-}
 .video-start {
     width: 100%;
     height: 100%;
@@ -567,3 +438,145 @@ form button::before {
     padding-left: 170px;
     padding-top: 50px;
 }
+/*18/4 */
+.container {
+    position: relative;
+}
+
+.container > .background, .container > .list-images {
+    width: 800px;
+    height: 500px;
+   
+}
+
+.background {
+    position: absolute;
+    overflow: hidden;
+
+}
+
+.list-images {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.list-images > img {
+    width: 25%
+    
+}
+.P1GD {
+    position: absolute;
+    text-align: center;
+    top: 250px;
+    left: 10px;
+    width: 100px;
+    height: 50px;
+    background-color: rgb(200, 200, 200 , 0.8);
+}
+.P1GD:hover{
+    cursor: pointer;
+    opacity: 0.7;
+    transition: all .3s ease;
+    box-shadow: bisque;
+
+}
+.Eatandrelax {
+    position: absolute;
+    text-align: center;
+    left: 260px;
+    width: 150px;
+    height: 50px;
+    background-color: rgb(200, 200, 200 , 0.8);
+}
+.Eatandrelax:hover {
+    cursor: pointer;
+    opacity: 0.7;
+    transition: all .3s ease;
+    box-shadow: bisque;
+}
+.P2GD {
+    position: absolute;
+    text-align: center;
+    top: 250px;
+    left: 515px;
+    width: 100px;
+    height: 50px;
+    background-color: rgb(200, 200, 200 , 0.8); 
+}
+.P2GD:hover {
+    cursor: pointer;
+    opacity: 0.7;
+    transition: all .3s ease;
+    box-shadow: bisque;
+}
+.P1GC {
+    position: absolute;
+    text-align: center;
+    left: 760px;
+    width: 100px;
+    height: 50px;
+    background-color: rgb(200, 200, 200 , 0.8); 
+}
+.PGC:hover {
+    cursor: pointer;
+    opacity: 0.7;
+    transition: all .3s ease;
+    box-shadow: bisque;
+}
+.bg1 {
+    background-color: #e0e0e0;
+    width: 100%;
+    height: 100%;
+    margin-left: 100px;
+    margin-top: 10px;
+    margin-right: 100px;
+    margin-bottom: 100px;   
+}
+.tieudesv {
+    width: 300px;
+    margin-left: 100px;
+}
+.svbt {
+    margin-top: 500px;
+    margin-left: 500px;
+    height: 50px;
+    text-align: center;
+    background-color: #2ec32e;
+    width: 200px;
+    
+    
+}
+.svbt:hover {
+    cursor: pointer;
+    opacity: 0.7;
+    background-color: #3d9b5e;
+}
+/*moresv*/
+
+.ORh1 {
+    text-align: center;
+}
+
+/*contactcss*/
+.feedback {
+    width: 500px;
+    float: left;
+    margin-left: 800px;
+    position: absolute;
+}
+.anh img  {
+    width: 600px;
+    height: 500px;
+    position: absolute;
+}
+.send {
+    margin-left: 800px;
+    margin-top: 470px;
+   color: white;
+   background-color: #797572;
+	cursor: pointer;
+}
+.send:hover {background-color: black;}
+
