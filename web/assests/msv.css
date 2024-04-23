@@ -166,7 +166,16 @@ ul, ol {
 	width: 125px;
 }
 .room-item .ri-text .primary-btn {
-	color: #19191a;
+	color: #fff;
+    background-color: #d08b2b;
+    padding: 10px
+ 
+
+}
+.room-item .ri-text .primary-btn:hover {
+text-decoration: none;
+background-color: #fff;
+color: #d08b2b;
 }
 .room-pagination {
 	text-align: center;
@@ -183,9 +192,14 @@ ul, ol {
 	-webkit-transition: all 0.3s;
 	-o-transition: all 0.3s;
 	transition: all 0.3s;
+   
 }
 .room-pagination a:last-child {
 	margin-right: 0;
+    background-color: #fff;
+    text-decoration: none;
+    padding: 20px;
+    margin-left: 20px;
 }
 .room-pagination a:hover {
 	background: #dfa974;

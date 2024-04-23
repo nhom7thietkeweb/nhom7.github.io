@@ -12,10 +12,7 @@
 ul {
     list-style:  none;
 }
-a {
-    text-decoration: none;
-    color: #ffffff;
-}
+
 .video-container {
   height: 100vh ;
   width: 100vw ;
@@ -66,7 +63,7 @@ header {
 .header-content-left {
     position: absolute;
     top: 50px;
-    left: 188px;
+    left: 450px;
     background-color: rgba(255, 255, 255, 0.1) ;
     padding: 30px 50px 0px 50px;
     text-align: center;
@@ -187,3 +184,183 @@ form button::before {
         display: none;
     }
    }
+   .container {
+    position: relative;
+}
+
+.container > .background, .container > .list-images {
+    width: 90%;
+    height: 400px;
+    margin-left: 20px;
+    margin-top: 50px;
+   
+}
+
+.background {
+    position: absolute;
+    overflow: hidden;
+
+}
+
+.list-images {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.list-images > img {
+    width:300px ;
+    margin-left: 30px;
+     
+    
+    
+}
+.P1GD {
+    position: absolute;
+    text-align: center;
+    top: 350px;
+    left: 30px;
+    width: 100px;
+    height: 30px;
+    background-color: rgb(200, 200, 200 , 0.8);
+}
+.P1GD:hover{
+    cursor: pointer;
+    opacity: 0.7;
+    transition: all .3s ease;
+    box-shadow: bisque;
+
+}
+.Eatandrelax {
+    position: absolute;
+    text-align: center;
+    left: 360px;
+    width: 150px;
+    height: 30px;
+    background-color: rgb(200, 200, 200 , 0.8);
+}
+.Eatandrelax:hover {
+    cursor: pointer;
+    opacity: 0.7;
+    transition: all .3s ease;
+    box-shadow: bisque;
+}
+.P2GD {
+    position: absolute;
+    text-align: center;
+    top: 350px;
+    left: 695px;
+    width: 100px;
+    height: 30px;
+    background-color: rgb(200, 200, 200 , 0.8); 
+}
+.P2GD:hover {
+    cursor: pointer;
+    opacity: 0.7;
+    transition: all .3s ease;
+    box-shadow: bisque;
+}
+.P1GC {
+    position: absolute;
+    text-align: center;
+    left: 1020px;
+    width: 100px;
+    height: 30px;
+    background-color: rgb(200, 200, 200 , 0.8); 
+}
+.P1GC:hover {
+    cursor: pointer;
+    opacity: 0.7;
+    transition: all .3s ease;
+    box-shadow: bisque;
+}
+.bg { 
+	background-color:#EEECDB;
+	width:100%;
+	height:100%;
+	position:absolute;
+    border: none;
+}
+.bg1 {
+    background-color: #ffffff;
+    width: 90%;
+    height: 80%;
+    margin-left: 100px;
+    margin-top: 10px;
+    margin-right: 100px;
+    margin-bottom: 100px;   
+}
+.tieudesv {
+    width: 300px;
+    margin-left: 100px;
+}
+.svbt {
+    margin-top: 575px;
+    margin-left: 550px;
+    height: 50px;
+    text-align: center;
+   
+    background-color: #fff;
+    width: 200px;
+    border: none;
+    
+}
+.svbt a {
+    color: #d08b2b;
+    text-decoration: none;
+}
+.svbt:hover {
+    cursor: pointer;
+    opacity: 0.7;
+    background-color: #676864;
+}
+    .btn1 {
+            position: absolute;
+            bottom: 120px;
+            left: 210px;
+            width: 150px;
+            height: 40px;
+            background-color: #d08b2b;
+            color: #ffffff;
+            border: none;
+            cursor: pointer;
+    }
+        .btn2 {
+            position: absolute;
+            bottom: 120px;
+            left: 550px;
+            width: 150px;
+            height: 40px;
+            background-color: #d08b2b;
+            color: #ffffff;
+            border: none;
+            cursor: pointer;
+        }
+        .btn3 {
+                position: absolute;
+                bottom: 120px;
+                left: 890px;
+                width: 150px;
+                height: 40px;
+                background-color: #d08b2b;
+                color: #ffffff;
+                border: none;
+                cursor: pointer;
+        }
+        .btn4 {
+                position: absolute;
+                bottom: 120px;
+                right: 150px;
+                width: 150px;
+                height: 40px;
+                background-color: #d08b2b;
+                color: #ffffff;
+                border: none;
+                cursor: pointer;
+        }
+ .moresv-container {
+    position: relative;
+ }
+
+      
