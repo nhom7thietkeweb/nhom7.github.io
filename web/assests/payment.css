@@ -12,12 +12,33 @@
 }
 ul {
     list-style:  none;
+    
+}
+.header-top {
+    background-color: #d08b2b;
+}
+.header-top ul {
+   width: 100% ;
+ list-style: none;
+ display: flex;
+ justify-content: flex-end;
+ align-items: center;
+}
+
+.header-top ul li {
+    height: 50px;
+}
+.header-top ul li:first-child {
+    margin-right: auto;
+    align-items: center;
+    display: flex;
+    padding-top: 10px;
 }
 .right {
     position: absolute;
     width: 559px;
     height: 600px;
-    top: 30px;
+    top: 70px;
     left: 769px;
     background-color: #ffffff;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
