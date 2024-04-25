@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Eternal Sunshine</title>
-  <link rel="stylesheet" href="../assests/booking.css">
+  <link rel="stylesheet" href="assests/booking.css">
  
  
 </head>
@@ -12,16 +12,16 @@
   <header>
     <div class="header-top">
       <ul>
-        <li><img src="../images/rmbg.png" style="width:150px;height:130px;" /></li>
-        <li><a href="/web/home.html">Home</a>
-          <li><a href="/web/services.html">Our services</a>
-            <li><a href="/web/Booking.html">Booking</a>
-            <li><a href="/web/appointment.html">Appointment</a>
-            <li><a href="/web/contact.html">Contact</a>
+        <li><img src="images/rmbg.png" style="width:150px;height:130px;" /></li>
+        <li><a href="home.html">Home</a>
+          <li><a href="services.html">Our services</a>
+            <li><a href="Booking.html">Booking</a>
+            <li><a href="appointment.html">Appointment</a>
+            <li><a href="contact.html">Contact</a>
       </ul>
       </div>
       <div class="video-container">
-        <video src="/web/videobg.mp4" autoplay muted loop alt="">
+        <video src="videobg.mp4" autoplay muted loop alt="">
     </div>
     <div class="content-container">
           <div class="header-content-left">
@@ -51,7 +51,7 @@
       </select>
       <p>Promo code</p>
       <input type="text" name="code" placeholder="Type your code">
-      <button>Book</button>
+      <button type="sumbit" id="ImageHosting" value="To Image Hosting" onclick="ImageHosting_Click()">Book</button>
       </form>
     </div> 
   
@@ -67,14 +67,14 @@
           <div class="container" >
             <div class="background"><img src="images/sv4.jpg"></div>
             <div class="list-images">
-                <img  src="../images/sv1.jpg">
+                <img  src="images/sv1.jpg">
                     <div class="P1GD">Single Room</div>
                     
-                <img  src="../images/sv2.jpg">
+                <img  src="images/sv2.jpg">
                     <div class="Eatandrelax">Food and Beverage</div>
-                <img  src="../images/sv3.jpg">
+                <img  src="images/sv3.jpg">
                     <div class="P2GD">Twin Room</div>
-                <img  src="../images/sv4.jpg">
+                <img  src="images/sv4.jpg">
                     <div class="P1GC">Double Room</div>
                 
             </div>
@@ -83,12 +83,18 @@
         <button class="btn2">Select</button>
         <button class="btn3">Select</button>
         <button class="btn4">Select</button>
-        <button class="svbt"><a  href="bkmoresv.html" >Choose your room type</a></button>
+        <button class="svbt"><a  href="booking/bkmoresv.html" >Choose your room type</a></button>
       </div>
     </fieldset>
 
 
 </html>
 </body>
-<script src="script.js" ></script>
+<script > 
+function ImageHosting_Click() {
+               $("#ImageHosting").click(function () {
+                   alert("test");
+               });
+       }
+</script>
 </html>
