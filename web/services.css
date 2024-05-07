@@ -173,8 +173,15 @@ header {
     margin-bottom: 100px;   
 }
 .tieudesv {
-    width: 300px;
-    margin-left: 100px;
+    color:rgba(0, 0, 0, 1);
+	width:511px;
+	height:57px;
+	position:absolute;
+	left:211px;
+	top:187px;
+	font-family:Quando;
+	text-align:left;
+	font-size:50px;
 }
 .svbt {
     margin-top: 500px;
