@@ -180,7 +180,7 @@ header {
 	top:187px;
 	font-family:Quando;
 	text-align:left;
-	margin-left: 100px;
+    margin-left: 100px;
 	font-size:50px;
 }
 .svbt {
@@ -220,7 +220,7 @@ header {
 	display: inline-block;
 }
 .footer-section .footer-text .ft-about p {
-	color: #aaaab3;
+	color: #ffffff;
 	margin-bottom: 20px;
 }
 .footer-section .footer-text .ft-about .fa-social a {
@@ -256,7 +256,7 @@ header {
 }
 .footer-section .footer-text .ft-contact ul li {
 	font-size: 16px;
-	color: #aaaab3;
+	color: #ffffff;
 	line-height: 32px;
 	list-style: none;
 }
@@ -270,7 +270,7 @@ header {
 	margin-bottom: 20px;
 }
 .footer-section .footer-text .ft-newslatter p {
-	color: #aaaab3;
+	color: #ffffff;
 	margin-bottom: 20px;
 }
 .footer-section .footer-text .ft-newslatter .fn-form {
@@ -312,10 +312,10 @@ header {
 }
 .footer-section .copyright-option ul li a {
 	font-size: 16px;
-	color: #aaaab3;
+	color: #ffffff;
 }
 .footer-section .copyright-option .co-text {
 	font-size: 16px;
-	color: #707079;
+	color: #ffffff;
 	text-align: right;
 }
