@@ -406,7 +406,7 @@ form button::before {
     padding-top: 220px;
 }
 
-.row:after{
+.row1:after{
     content: "";
     display: table;
     clear: both;
