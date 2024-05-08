@@ -458,7 +458,6 @@ form button::before {
 .anh img  {
     width: 700px;
     height: 470px;
-    margin-top: 10px;
     margin-left: 40px;
     position: absolute;
 }
