@@ -401,7 +401,7 @@ form button::before {
 .left{
    color:rgba(0, 0, 0, 1);
 	height:57px;
-    padding-left: 250px;
+    padding-left: 280px;
 	font-family: Quando;
     display: flex;
     justify-content: left;
