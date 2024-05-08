@@ -86,7 +86,7 @@ form h1 {
     font-size: 27px;
 }
 form select,input {
-    width: 100%;
+    width: 300px;
     height: 38px;
     padding-left: 12px;
     outline: none;
@@ -462,6 +462,12 @@ form button::before {
     margin-left: 40px;
     position: absolute;
 }
+.anh1 img {
+    width: 750px;
+    height: 470px;
+    margin-left: 60px;
+    position: absolute;
+}
 .send {
     margin-left: 1000px;
     margin-top: 470px;
@@ -481,6 +487,7 @@ appointment section
    color: rgb(0, 0, 0);
 	cursor: pointer;
     margin-top: 300px;
+    padding-left: 900px ;
 }
 .table {
     margin-top: -300px;
@@ -490,12 +497,16 @@ appointment section
 }
 .sendapp {
     margin-left: 1100px;
+    margin-bottom: 50px;
+    margin-top: 30px;
     background-color: #7d7a7a;
+    padding: 10px;
 }
 .sendapp:hover {
     background: #727272;
 }
-.contact {
+.contact .h1 {
+    margin-left: 270px;
 
 }
 /*---------------------
