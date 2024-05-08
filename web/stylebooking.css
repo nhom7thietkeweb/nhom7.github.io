@@ -76,6 +76,10 @@ header {
     color: snow;
 }
 form {
+
+}
+
+.form1{ 
     background-color: rgb(255, 255, 255);
     padding: 20px 15px;
     margin-top: 20px;
@@ -100,21 +104,18 @@ form p {
 }
 form button {
     height: 35px;
-    margin-top: 15px;
-    width: 250px;
+    margin-top: 20px;
     border: unset;
- border-radius: 5px;
- color: #e9dfdf;
- z-index: 1;
- background: #d08b2b;
- position: relative;
- font-weight: 1000;
- font-size: 17px;
- -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
- box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
- transition: all 250ms;
- overflow: hidden;
- cursor: pointer;
+    border-radius: 5px;
+    color: #e9dfdf;
+    z-index: 1;
+    background: #d08b2b;
+    position: relative;
+    font-weight: 1000;
+    font-size: 17px;
+    transition: all 250ms;
+    overflow: hidden;
+    cursor: pointer;
 }
 form button::before {
     content: "";
@@ -123,7 +124,6 @@ form button::before {
     left: 0;
     height: 100%;
     width: 0;
-    border-radius: 5px;
     background-color: #e5ecf2;
     z-index: -1;
     -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
@@ -584,6 +584,10 @@ appointment section
 }
 .footer-section .footer-text .ft-newslatter .fn-form {
 	position: relative;
+    padding: 20px 15px;
+    padding-left: 0;
+    margin-top: 20px;
+    margin-left: 0px;
 }
 .footer-section .footer-text .ft-newslatter .fn-form input {
 	width: 100%;
