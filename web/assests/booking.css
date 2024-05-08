@@ -215,7 +215,7 @@ form button::before {
 .P1GD {
     position: absolute;
     text-align: center;
-    top: 350px;
+    top: 371px;
     left: 30px;
     width: 100px;
     height: 30px;
@@ -231,7 +231,7 @@ form button::before {
 .Eatandrelax {
     position: absolute;
     text-align: center;
-    left: 360px;
+    left: 337px;
     width: 150px;
     height: 30px;
     background-color: rgb(200, 200, 200 , 0.8);
@@ -245,8 +245,8 @@ form button::before {
 .P2GD {
     position: absolute;
     text-align: center;
-    top: 350px;
-    left: 695px;
+    top: 370px;
+    left: 645px;
     width: 100px;
     height: 30px;
     background-color: rgb(200, 200, 200 , 0.8); 
@@ -260,7 +260,7 @@ form button::before {
 .P1GC {
     position: absolute;
     text-align: center;
-    left: 1020px;
+    left: 953px;
     width: 100px;
     height: 30px;
     background-color: rgb(200, 200, 200 , 0.8); 
@@ -288,11 +288,15 @@ form button::before {
     margin-bottom: 100px;   
 }
 .tieudesv {
-    width: 300px;
+    color:rgba(0, 0, 0, 1);
+	left:211px;
+	top:100px;
+	font-family:Quando;
+	text-align:left;
     margin-left: 100px;
 }
 .svbt {
-    margin-top: 575px;
+    margin-top: 600px;
     margin-left: 550px;
     height: 50px;
     text-align: center;
@@ -304,6 +308,7 @@ form button::before {
 }
 .svbt a {
     color: #d08b2b;
+    font-size: 17px;
     text-decoration: none;
 }
 .svbt:hover {
@@ -313,7 +318,7 @@ form button::before {
 }
     .btn1 {
             position: absolute;
-            bottom: 120px;
+            bottom: 150px;
             left: 210px;
             width: 150px;
             height: 40px;
@@ -324,8 +329,8 @@ form button::before {
     }
         .btn2 {
             position: absolute;
-            bottom: 120px;
-            left: 550px;
+            bottom: 150px;
+            left: 530px;
             width: 150px;
             height: 40px;
             background-color: #d08b2b;
@@ -335,8 +340,8 @@ form button::before {
         }
         .btn3 {
                 position: absolute;
-                bottom: 120px;
-                left: 890px;
+                bottom: 150px;
+                left: 830px;
                 width: 150px;
                 height: 40px;
                 background-color: #d08b2b;
@@ -346,8 +351,8 @@ form button::before {
         }
         .btn4 {
                 position: absolute;
-                bottom: 120px;
-                right: 150px;
+                bottom: 150px;
+                right: 230px;
                 width: 150px;
                 height: 40px;
                 background-color: #d08b2b;
