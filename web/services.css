@@ -131,7 +131,7 @@ header {
     position: absolute;
     text-align: center;
     top: 370px;
-    left: 593px;
+    left: 590px;
     width: 100px;
     height: 30px;
     background-color: rgb(200, 200, 200 , 0.8); 
@@ -173,8 +173,13 @@ header {
     margin-bottom: 100px;   
 }
 .tieudesv {
-    width: 300px;
-    margin-left: 100px;
+    color:rgba(0, 0, 0, 1);
+	height:57px;
+	left:211px;
+	top:100px;
+	font-family:Quando;
+	text-align:left;
+        margin-left: 100px;
 }
 .svbt {
     margin-top: 500px;
@@ -213,7 +218,7 @@ header {
 	display: inline-block;
 }
 .footer-section .footer-text .ft-about p {
-	color: #aaaab3;
+	color: #ffffff;
 	margin-bottom: 20px;
 }
 .footer-section .footer-text .ft-about .fa-social a {
@@ -240,7 +245,7 @@ header {
 }
 .footer-section .footer-text .ft-contact h6 {
 	font-size: 14px;
-	color: #dfa974;
+	color: #000000;
 	text-transform: uppercase;
 	font-weight: 700;
 	letter-spacing: 3px;
@@ -249,13 +254,13 @@ header {
 }
 .footer-section .footer-text .ft-contact ul li {
 	font-size: 16px;
-	color: #aaaab3;
+	color: #ffffff;
 	line-height: 32px;
 	list-style: none;
 }
 .footer-section .footer-text .ft-newslatter h6 {
 	font-size: 14px;
-	color: #dfa974;
+	color: #000000;
 	text-transform: uppercase;
 	font-weight: 700;
 	letter-spacing: 3px;
@@ -263,7 +268,7 @@ header {
 	margin-bottom: 20px;
 }
 .footer-section .footer-text .ft-newslatter p {
-	color: #aaaab3;
+	color: #ffffff;
 	margin-bottom: 20px;
 }
 .footer-section .footer-text .ft-newslatter .fn-form {
@@ -277,7 +282,7 @@ header {
 	border: none;
 	padding-left: 20px;
 	font-size: 16px;
-	color: #707079;
+	color: #ffffff;
 }
 .footer-section .footer-text .ft-newslatter .fn-form button {
 	position: absolute;
@@ -305,10 +310,10 @@ header {
 }
 .footer-section .copyright-option ul li a {
 	font-size: 16px;
-	color: #aaaab3;
+	color: #ffffff;
 }
 .footer-section .copyright-option .co-text {
 	font-size: 16px;
-	color: #707079;
+	color: #ffffff;
 	text-align: right;
 }

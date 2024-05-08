@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../assests/payment.css">
+    <link rel="stylesheet" href="../assests/payment2.css">
     <title>Document</title>
 </head>
 <body>
@@ -15,57 +16,79 @@
         </div>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <div class="container">
-        <div class="title">
-            <h4>Select a <span style="color: #6064b6">Payment</span> method</h4>
-        </div>
+        
+        <form action="">
 
-        <form action="#">
-            <input type="radio" name="payment" id="visa">
-            <input type="radio" name="payment" id="mastercard">
-            <input type="radio" name="payment" id="paypal">
-            <input type="radio" name="payment" id="AMEX">
-
-
-            <div class="category">
-                <label for="visa" class="visaMethod">
-                    <div class="imgName">
-                        <div class="imgContainer visa">
-                            <img src="https://i.ibb.co/vjQCN4y/Visa-Card.png" alt="">
-                        </div>
-                        <span class="name">VISA</span>
+            <div class="row">
+    
+                <div class="col">
+    
+                    <h3 class="title">billing address</h3>
+    
+                    <div class="inputBox">
+                        <span>full name :</span>
+                        <input type="text" placeholder="john deo">
                     </div>
-                    <span class="check"><i class="fa-solid fa-circle-check" style="color: #6064b6;"></i></span>
-                </label>
-
-                <label for="mastercard" class="mastercardMethod">
-                    <div class="imgName">
-                        <div class="imgContainer mastercard">
-                            <img src="https://i.ibb.co/vdbBkgT/mastercard.jpg" alt="">
-                        </div>
-                        <span class="name">Mastercard</span>
+                    <div class="inputBox">
+                        <span>email :</span>
+                        <input type="email" placeholder="example@example.com">
                     </div>
-                    <span class="check"><i class="fa-solid fa-circle-check" style="color: #6064b6;"></i></span>
-                </label>
-
-                <label for="paypal" class="paypalMethod">
-                    <div class="imgName">
-                        <div class="imgContainer paypal">
-                            <img src="https://i.ibb.co/KVF3mr1/paypal.png" alt="">
-                        </div>
-                        <span class="name">Paypal</span>
+                    <div class="inputBox">
+                        <span>address :</span>
+                        <input type="text" placeholder="room - street - locality">
                     </div>
-                    <span class="check"><i class="fa-solid fa-circle-check" style="color: #6064b6;"></i></span>
-                </label>
-
-                <label for="AMEX" class="amexMethod">
-                    <div class="imgName">
-                        <div class="imgContainer AMEX">
-                            <img src="https://i.ibb.co/wQnrX86/American-Express.jpg" alt="">
-                        </div>
-                        <span class="name">AMEX</span>
+                    <div class="inputBox">
+                        <span>city :</span>
+                        <input type="text" placeholder="mumbai">
                     </div>
-                    <span class="check"><i class="fa-solid fa-circle-check" style="color: #6064b6;"></i></span>
-                </label>
+    
+                    <div class="flex">
+                        <div class="inputBox">
+                            <span>state :</span>
+                            <input type="text" placeholder="india">
+                        </div>
+                        <div class="inputBox">
+                            <span>zip code :</span>
+                            <input type="text" placeholder="123 456">
+                        </div>
+                    </div>
+    
+                </div>
+    
+                <div class="col">
+    
+                    <h3 class="title">payment</h3>
+    
+                    <div class="inputBox">
+                        <span>cards accepted :</span>
+                        <img src="../images/card_img.png" alt="">
+                    </div>
+                    <div class="inputBox">
+                        <span>name on card :</span>
+                        <input type="text" placeholder="mr. john deo">
+                    </div>
+                    <div class="inputBox">
+                        <span>credit card number :</span>
+                        <input type="number" placeholder="1111-2222-3333-4444">
+                    </div>
+                    <div class="inputBox">
+                        <span>exp month :</span>
+                        <input type="text" placeholder="january">
+                    </div>
+    
+                    <div class="flex">
+                        <div class="inputBox">
+                            <span>exp year :</span>
+                            <input type="number" placeholder="2022">
+                        </div>
+                        <div class="inputBox">
+                            <span>CVV :</span>
+                            <input type="text" placeholder="1234">
+                        </div>
+                    </div>
+    
+                </div>
+        
             </div>
         </form>
     </div>
@@ -105,6 +128,7 @@
             </div>
         </div>
         </div>
+        
         
 </body>
 </html>
