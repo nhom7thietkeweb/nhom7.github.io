@@ -89,6 +89,7 @@
 	width: 40px;
 	height: 2px;
 	background: #e6c9a2;
+	text-decoration: line-through;
   }
   .s-menu.p-list .block-text .title::after {
 	content: "";
